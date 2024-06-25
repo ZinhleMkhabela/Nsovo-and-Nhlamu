@@ -1,7 +1,7 @@
 body{ 
     box-sizing: border-box;
     font-family: sans-serif;
-    background-image: url(./see_more\ background.jpg);
+    background-image: url(/img/see_more\ background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
