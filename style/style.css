@@ -105,3 +105,5 @@ body{
     padding: 12px 25px;
     background-color: orangered;
 }
+
+img { mix-blend-mode: multiply;}
