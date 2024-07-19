@@ -1,3 +1,4 @@
+/*
 *{
     margin: 0;
     padding: 0;
@@ -16,8 +17,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
+
 
 .container h1{
     color: orangered;
@@ -106,4 +107,138 @@ body{
     background-color: orangered;
 }
 
-img { mix-blend-mode: multiply;}
+*/
+ 
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    background: rgba(0, 0, 0, 0.7) url('/img/background\ image\ for\ about.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    padding: 20px 0;
+    color: #fff;
+}
+
+/* .container img {
+    height: 40px;
+} */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container img {
+    background-color: transparent;
+}
+
+.container h1 {
+    color: orangered;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: orangered;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Content Styles */
+main {
+    flex: 1;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px 50px;
+}
+
+.content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.search {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.submit {
+    margin: 20px auto;
+}
+
+.submit a {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
